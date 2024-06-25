@@ -8,6 +8,8 @@ fun main(args : Array<String>) {
   println(fibonacci_recursivo(10))
 
   println(fibonacci_iterativo(10))
+
+  println(lambda(x, y))
 }
 
 fun sum(a: Int, b: Int): Int {
@@ -29,3 +31,15 @@ fun fibonacci_iterativo(n: Int): Int { // Fibonacci iterativo
   }
   return c
 }
+
+fun concatenar(a: String, b: String): String {
+  return a + b
+}
+
+fun concatenar2(a: String, b: String): String = a + b // Função de uma linha
+
+val lambda = { a: Int, b: Int -> 
+  val c  = a + b
+  c
+} // Função lambda
+
