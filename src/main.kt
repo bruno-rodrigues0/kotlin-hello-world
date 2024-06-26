@@ -36,6 +36,10 @@ fun concatenar(a: String, b: String): String {
   return a + b
 }
 
+funcion () {
+  return 1
+}
+
 fun concatenar2(a: String, b: String): String = a + b // Função de uma linha
 
 val lambda = { a: Int, b: Int -> 
